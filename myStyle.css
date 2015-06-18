@@ -1,0 +1,31 @@
+.heroimage
+
+	{
+		background-image:
+		url (tewt.github.io/images/sam_logo.png);
+	}
+
+
+
+
+h1
+
+	{
+
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 250px;
+
+	}
+
+
+
+body
+
+	{
+
+	background-color: #00D4AD
+
+	}
