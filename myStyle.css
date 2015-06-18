@@ -1,31 +1,24 @@
-.heroimage
+img.displayed
 
 	{
-		background-image:
-		url (tewt.github.io/images/sam_logo.png);
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 70px;
+		padding-top: 200px;
 	}
-
-
-
 
 h1
 
 	{
-
-	font-family: Helvetica;
-	font-weight: bold;
-	color: #ffffff;
-	text-align: center;
-	padding-top: 250px;
-
+		font-family: Helvetica;
+		font-weight: bold;
+		color: #ffffff;
+		text-align: center;
 	}
-
-
 
 body
 
 	{
-
-	background-color: #00D4AD
-
+		background-color: #00D4AD
 	}
