@@ -131,9 +131,9 @@
 	-moz-animation-duration: .4s;
 	-webkit-animation-duration: .4s;
 
-	animation-timing-function: ease;
-	-moz-animation-timing-function: ease;	
-	-webkit-animation-timing-function: ease;
+	animation-timing-function: ease-out;
+	-moz-animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;
 }
 
 .moveleft.one {
@@ -278,7 +278,7 @@ p.italic {
 }
 
 .bodytextdiv {
-	max-width: 400px;
+	max-width: 340px;
 	margin-left: auto;
   margin-right: auto;
 }
