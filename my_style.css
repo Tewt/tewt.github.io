@@ -6,14 +6,25 @@ img.displayed {
 	padding-top: 200px;
 }
 
-img.resized {
+img.blogsize {
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 40px;
-	padding-top: 200px;
+	padding-top: 160px;
 	width:119px;
 	height:130px;
+}
+
+img.postsize {
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 59.5px;
+    height: 65px;
+}
+
+br.clear {
+    clear: both;
 }
 
 h1 {
@@ -27,6 +38,14 @@ h2 {
 	font-weight: bold;
 	color: #ffffff;
 	font-size: 30px;
+}
+
+h3 {
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 30px;
+	padding-top: 200px;
 }
 
 body {
