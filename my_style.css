@@ -132,7 +132,8 @@ h3 {
   font-weight: bold;
   color: #ffffff;
   font-size: 30px;
-  padding-top: 250px;
+  z-index: 1;
+  padding-top: 150px;
 }
 
 body {
@@ -153,4 +154,51 @@ a.linktext {
 
 a:hover { 
     opacity: 0;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+	background-color: #00D4AD;
+	top: 245px;
+	height: 70px;
+	width: 400px;
+	z-index: 2;
+}
+
+@keyframes move {
+  100% {
+     transform: translate(400px);
+  }
+}
+
+@-moz-keyframes move {
+  100% {
+     transform: translate(400px);
+  }
+}
+
+@-webkit-keyframes move {
+  100% {
+     transform: translate(400px);
+  }
+}
+
+.move {
+	animation: move 1s ease 1;
+	-moz-animation: move 1s ease 1;
+	-webkit-animation: move 1s ease 1;
+
+	animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	
+	animation-delay: .5s;
+	-moz-animation-delay: .5s;
+	-webkit-animation-delay: .5s;
+
+	animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
 }
