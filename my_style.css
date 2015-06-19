@@ -74,38 +74,29 @@
 }
 
 @keyframes movetwo {
+  0% {
+		transform: translateX(0px);
+	}
   100% {
     transform: translateX(600px);
   }
 }
 
 @-moz-keyframes movetwo {
+  0% {
+		transform: translateX(0px);
+	}
   100% {
     transform: translateX(600px);
   }
 }
 
 @-webkit-keyframes movetwo {
+  0% {
+		transform: translateX(0px);
+	}
   100% {
     transform: translateX(600px);
-  }
-}
-
-@keyframes movethree {
-  100% {
-    transform: translateX(0%) translateY(0%) scale(.25);
-  }
-}
-
-@-moz-keyframes movethree {
-  100% {
-    transform: translateX(0%) translateY(0%) scale(.25);
-  }
-}
-
-@-webkit-keyframes movethree {
-  100% {
-    transform: translateX(0%) translateY(0%) scale(.25);
   }
 }
 
