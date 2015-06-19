@@ -75,37 +75,37 @@
 
 @keyframes movetwo {
   0% {
-		transform: translateX(0px);
+		transform: translateX(-20%);
 	}
 	50% {
-		transform: translateX(300px);
+		transform: translateX(0%);
 	}
   100% {
-    transform: translateX(600px);
+    transform: translateX(100%);
   }
 }
 
 @-moz-keyframes movetwo {
   0% {
-		transform: translateX(0px);
+		transform: translateX(-20%);
 	}
 	50% {
-		transform: translateX(300px);
+		transform: translateX(0%);
 	}
   100% {
-    transform: translateX(600px);
+    transform: translateX(100%);
   }
 }
 
 @-webkit-keyframes movetwo {
   0% {
-		transform: translateX(0px);
+		transform: translateX(-20%);
 	}
 	50% {
-		transform: translateX(300px);
+		transform: translateX(0%);
 	}
   100% {
-    transform: translateX(600px);
+    transform: translateX(100%);
   }
 }
 
@@ -128,17 +128,17 @@
 }
 
 .movetwo {
-	animation: movetwo .5s ease 1;
-	-moz-animation: movetwo .5s ease 1;
-	-webkit-animation: movetwo .5s ease 1;
+	animation: movetwo .8s ease 1;
+	-moz-animation: movetwo .8s ease 1;
+	-webkit-animation: movetwo .8s ease 1;
 
 	animation-fill-mode: forwards;
 	-moz-animation-fill-mode: forwards;
 	-webkit-animation-fill-mode: forwards;
 	
-	animation-delay: .9s;
-	-moz-animation-delay: .9s;
-	-webkit-animation-delay: .9s;
+	animation-delay: .7s;
+	-moz-animation-delay: .7s;
+	-webkit-animation-delay: .7s;
 
 	animation-iteration-count: 1;
 	-moz-animation-iteration-count: 1;
