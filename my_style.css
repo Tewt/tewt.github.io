@@ -1,3 +1,11 @@
+
+@media (max-width: 700px) {
+	#blogpagecontent h2 {
+		font-size: 1em;
+	}
+}
+
+/* MY ANIMATIONS */
 @keyframes slide-up {
 	0% {
 		transform: translateY(100%);
@@ -49,37 +57,55 @@
 
 @keyframes move {
   100% {
-     transform: translate(-500px);
+    transform: translate(-500px);
   }
 }
 
 @-moz-keyframes move {
   100% {
-     transform: translate(-500px);
+    transform: translate(-500px);
   }
 }
 
 @-webkit-keyframes move {
   100% {
-     transform: translate(-500px);
+    transform: translate(-500px);
   }
 }
 
 @keyframes movetwo {
   100% {
-     transform: translateX(600px);
+    transform: translateX(600px);
   }
 }
 
 @-moz-keyframes movetwo {
   100% {
-     transform: translateX(600px);
+    transform: translateX(600px);
   }
 }
 
 @-webkit-keyframes movetwo {
   100% {
-     transform: translateX(600px);
+    transform: translateX(600px);
+  }
+}
+
+@keyframes movethree {
+  100% {
+    transform: translateX(0%) translateY(0%) scale(.25);
+  }
+}
+
+@-moz-keyframes movethree {
+  100% {
+    transform: translateX(0%) translateY(0%) scale(.25);
+  }
+}
+
+@-webkit-keyframes movethree {
+  100% {
+    transform: translateX(0%) translateY(0%) scale(.25);
   }
 }
 
@@ -118,6 +144,24 @@
 	-moz-animation-iteration-count: 1;
 	-webkit-animation-iteration-count: 1;
 
+}
+
+.movethree {
+	animation: movethree .5s ease 1;
+	-moz-animation: movethree .5s ease 1;
+	-webkit-animation: movethree .5s ease 1;
+
+	animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	
+	animation-delay: .1s;
+	-moz-animation-delay: .1s;
+	-webkit-animation-delay: .1s;
+
+	animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -164,6 +208,7 @@
   animation-delay: 1.3s;
 }
 
+/* OBJECT CLASSES */
 img.displayed {
   display:block;
   margin-left: auto;
@@ -200,7 +245,7 @@ h2 {
   font-family: Helvetica;
   font-weight: bold;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 1.8em;
 }
 
 h3 {
@@ -266,8 +311,6 @@ a:hover {
 }
 
 #blogpagecontent {
-	width: 600px;
-	height: 400px;
 	margin-right: auto;
 	margin-left: auto;
 }
