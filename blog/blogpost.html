@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		
+  <head>
+
     <link rel="icon" type="image/x-icon" href="../favicon.ico"/>
-		<link rel="stylesheet" type="text/css" href="../my_style.css"/>
-		<meta charset="UTF-8">
-		<title>create your own website</title>
+    <link rel="stylesheet" type="text/css" href="blogpoststyle.css"/>
+    <meta charset="UTF-8">
+    <title>THIS PAGE IS DUMB.</title>
+    <script type="text/javascript">
+       function changeClass() {
+       document.getElementById("boxone").className = "slidein"
+       document.getElementById("textcontainertwo").className = "fadein two"
+       document.getElementById("listenbox").className = "invisible"
+       }
+    </script>
 
-	</head>
-	<body>
+  </head>
 
-    <a href="../index.html">
-      <img class="postsize" src="../images/sam_logo.png" align="left">
-    </a>
+  <body>
+    <div class="fixedheader">
+      <a href="../index.html">
+        <img class="postsize" src="../images/sam_logo.png" align="left">
+      </a>
+      <div type="button" class="bgchange" onclick="changeClass()">
+        <img class="buttonsize" src="../images/eyeicon.png" onclick="src='../images/eyeclose.png'">
+      </div>
+    </div>  
     <br class="clear"/>
-    <div>
-      <div class="box move two"></div>
-      <h3>Listen to me.</h3>
-      <div class="bodytextdiv fade-in four">
+    <div class="textformatting">
+      <div id="listenbox" class="move"></div>
+      <div class="textcontainerone">
+        <h1>Listen to me.</h1>
+      </div>
+      <div id="textcontainertwo" class="invisible">
+        <h1>Trouble reading?</h1>
+      </div>
+      <div class="bodytextdiv fadein one">
         <p class="italic">
 
           A faint echo in the wind, barely audible, seems to be asking you a question. You try with all your might to listen to the voice, questioning whether or not it exists. The next time the question is asked you are able to hear it: Do you want to create your own website? You are able to decipher (roughly) the instructions that follow:
@@ -34,7 +51,8 @@
 
         </p>
        </div> 
-    </div>
+    </div>  
+    <div id="boxone" class="invisible"></div>
 
-	</body>
+  </body>
 </html>

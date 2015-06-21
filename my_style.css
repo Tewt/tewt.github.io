@@ -6,6 +6,9 @@
 }
 
 /* MY ANIMATIONS */
+
+// main page logo animation
+
 @keyframes slide-up {
 	0% {
 		transform: translateY(100%);
@@ -54,6 +57,8 @@
 
 	visibility: visible !important;			
 }
+
+// box movers
 
 @keyframes moveleft {
   0% {
@@ -172,6 +177,8 @@
 	-webkit-animation-delay: .7s;
 }
 
+// fade effect
+
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -217,6 +224,7 @@
 }
 
 /* OBJECT CLASSES */
+
 img.displayed {
   display:block;
   margin-left: auto;
@@ -321,17 +329,14 @@ a:hover {
 }
 
 .boxthree {
-	margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
   position: relative;
-	background-color: #00D4AD;
-	top: 360px;
-	height: 55px;
-	width: 440px;
-	z-index: 3;
+  background-color: #00D4AD;
+  top: 360px;
+  height: 55px;
+  width: 440px;
+  z-index: 3;
 }
 
-#blogpagecontent {
-	margin-right: auto;
-	margin-left: auto;
-}
+
