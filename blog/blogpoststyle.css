@@ -31,15 +31,47 @@ body {
 	z-index: 4000;
 }
 
+.shrink {
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+
+  animation-name: shrink;
+  -webkit-animation-name: shrink;
+
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes shrink {
+  from {
+    width: 200px;
+  }
+  to {
+    width: 0px;
+  }
+}
+
+@-webkit-keyframes shrink {
+  from {
+    width: 200px;
+  }
+  to {
+    width: 0px;
+  }
+}
+
 .move {
 	animation-duration: 1s;
-    -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 1s;
 
 	animation-name: move;
-    -webkit-animation-name: move;
+  -webkit-animation-name: move;
 
 	animation-timing-function: ease;
-    -webkit-animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
 
 	animation-fill-mode: forwards;
 	-webkit-animation-fill-mode: forwards;
@@ -227,8 +259,8 @@ p.italic {
 }
 
 .two {
-	animation-delay: 2s;
-	-webkit-animation-delay: 2s;
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
 }
 
 @keyframes fadein {
