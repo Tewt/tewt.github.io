@@ -51,7 +51,7 @@ body {
 	  transform: translateX(0px);
     }
 
-    to { 
+    to {
       transform: translateX(500px)
     }
 }
@@ -63,7 +63,7 @@ body {
 	to {
 		-webkit-transform: translateX(500px)
 	}
-}    
+}
 
 .buttonsize {
 	margin: 0 auto;
@@ -184,7 +184,7 @@ p.italic {
 @keyframes slidein {
   from {
     height: 0vh;
-    width: 100vw; 
+    width: 100vw;
   }
 
   to {
@@ -196,7 +196,7 @@ p.italic {
 @-webkit-keyframes slidein {
   from {
     height: 0vh;
-    width: 100vw; 
+    width: 100vw;
   }
 
   to {
@@ -247,5 +247,77 @@ p.italic {
 	to {
 		opacity: 1;
 	}
+}
+
+.slideout {
+  animation-duration: 2.5s;
+  -webkit-animation-duration: 2.5s;
+
+  animation-name: slideout;
+  -webkit-animation-name: slideout;
+
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: fowards;
+
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+}
+
+@keyframes slideout {
+  from {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  to {
+    height: 0vh;
+    width: 100vw;
+  }
+}
+
+@-webkit-keyframes slideout {
+  from {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  to {
+    height: 0vh;
+    width: 100vw;
+  }
+}
+
+.fadeout {
+  opacity: 1;
+
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+
+  animation-name: fadeout;
+  -webkit-animation-name: fadeout;
+
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 

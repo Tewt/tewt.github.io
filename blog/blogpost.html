@@ -6,13 +6,7 @@
     <link rel="stylesheet" type="text/css" href="blogpoststyle.css"/>
     <meta charset="UTF-8">
     <title>THIS PAGE IS DUMB.</title>
-    <script type="text/javascript">
-       function changeClass() {
-       document.getElementById("boxone").className = "slidein"
-       document.getElementById("textcontainertwo").className = "fadein two"
-       document.getElementById("listenbox").className = "invisible"
-       }
-    </script>
+    <script type="text/javascript" src="my_javascript.js"></script>
 
   </head>
 
@@ -21,10 +15,10 @@
       <a href="../index.html">
         <img class="postsize" src="../images/sam_logo.png" align="left">
       </a>
-      <div type="button" class="bgchange" onclick="changeClass()">
-        <img class="buttonsize" src="../images/eyeicon.png" onclick="src='../images/eyeclose.png'">
+      <div type="button" class="bgchange" onclick="toggleBackground()">
+        <img class="buttonsize" src="../images/eyeicon.png">
       </div>
-    </div>  
+    </div>
     <br class="clear"/>
     <div class="textformatting">
       <div id="listenbox" class="move"></div>
@@ -43,15 +37,15 @@
         <p>
 
           First, navigate to your profile on github.com. Observe the 'plus' symbol in the top right. Click on it, and then click on 'new repository'. Enter your username as the repository name followed by '.github.io' and then click on 'create repository'. Next you will need to clone the repository on your machine. Copy the url under 'HTTPS clone URL'. Open up the terminal and go to your projects folder by typing 'cd projects'. Now type git clone and then paste the url you copied from git. Hit 'enter'. You should now see the name of the new repository you just created when you type 'ls'. Type 'cd repositoryname'. Next create a file called 'index.html' by opening up your text editor and saving out the file into your root folder. To apply stylings to this file, create a file called 'mystyle.css' (for example). To create new folders for the different pages on your site, type 'mkdir titleofthatpage'. Keep in mind you must create new html files for each new page. Enjoy your new website.
-      
+
         </p>
         <p class="italic">
 
           The wind begins to blow violently and then settles suddenly. You can no longer hear the voice.
 
         </p>
-       </div> 
-    </div>  
+       </div>
+    </div>
     <div id="boxone" class="invisible"></div>
 
   </body>
